@@ -17,7 +17,7 @@ public class Stack : MonoBehaviour {
 
 	public void add(){
 		GameObject[] stackArr = GameObject.FindGameObjectsWithTag("stack");
-		if (stackArr.Length < 8) {
+		if (stackArr.Length < 7) {
 			GameObject cube = GameObject.CreatePrimitive (PrimitiveType.Cube);
 			cube.tag = "stack";
 			cube.name = "Cube" + stackArr.Length;

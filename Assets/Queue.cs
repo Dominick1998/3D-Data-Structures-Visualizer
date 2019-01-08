@@ -17,7 +17,7 @@ public class Queue : MonoBehaviour {
 
 	public void add(){
 		GameObject[] queueArr = GameObject.FindGameObjectsWithTag("queue");
-		if (queueArr.Length < 8) {
+		if (queueArr.Length < 7) {
 			GameObject cube = GameObject.CreatePrimitive (PrimitiveType.Cube);
 			cube.tag = "queue";
 			cube.name = "Cube" + queueArr.Length;
