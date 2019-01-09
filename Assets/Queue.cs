@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Queue : MonoBehaviour {
 
@@ -12,7 +13,8 @@ public class Queue : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKeyDown(KeyCode.Escape))
+			SceneManager.LoadScene("HomeScene");
 	}
 
 	public void add(){
@@ -39,5 +41,9 @@ public class Queue : MonoBehaviour {
 		if (queueArr.Length > 0) {
 			DestroyObject (queueArr[0]);
 		}
+	}
+
+	public void back(){
+		SceneManager.LoadScene("HomeScene");
 	}
 }

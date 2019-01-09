@@ -23,4 +23,12 @@ public class Home : MonoBehaviour {
 	public void stackOnClick(){
 		SceneManager.LoadScene("StackScene");
 	}
+
+	public void linkedlistOnClick(){
+		SceneManager.LoadScene("LinkedListScene");
+	}
+
+	public void bstOnClick(){
+		SceneManager.LoadScene("BSTScene");
+	}
 }

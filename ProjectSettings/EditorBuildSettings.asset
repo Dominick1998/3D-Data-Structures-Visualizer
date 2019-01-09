@@ -14,3 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/StackScene.unity
     guid: 6dcb806597e655e4095d536687c17519
+  - enabled: 1
+    path: Assets/LinkedListScene.unity
+    guid: 2bd82d26a87af064b94cb00ceccca3a0
+  - enabled: 1
+    path: Assets/BSTScene.unity
+    guid: 490a72e900393424d87a75b3fc62d68d
