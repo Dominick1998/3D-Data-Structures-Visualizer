@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/HomeScene.unity
+- path: Assets/LinkedListScene.unity
   isLoaded: 1
   isActive: 1
