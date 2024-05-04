@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LinkedListScene.unity
+- path: Assets/BSTScene.unity
   isLoaded: 1
   isActive: 1
