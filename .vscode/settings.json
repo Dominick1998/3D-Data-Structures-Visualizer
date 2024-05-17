@@ -1,58 +1,57 @@
 {
-    /*specifies which files and directories Visual Studio Code should exclude 
-    from its explorer pane and from searches within the editor.*/
-    "files.exclude":
+    // Specifies which files and directories Visual Studio Code should exclude from its explorer pane and from searches within the editor.
+    "files.exclude": 
     {
-        "**/.DS_Store":true,
-        "**/.git":true,
-        "**/.gitignore":true,
-        "**/.gitmodules":true,
-        "**/*.booproj":true,
-        "**/*.pidb":true,
-        "**/*.suo":true,
-        "**/*.user":true,
-        "**/*.userprefs":true,
-        "**/*.unityproj":true,
-        "**/*.dll":true,
-        "**/*.exe":true,
-        "**/*.pdf":true,
-        "**/*.mid":true,
-        "**/*.midi":true,
-        "**/*.wav":true,
-        "**/*.gif":true,
-        "**/*.ico":true,
-        "**/*.jpg":true,
-        "**/*.jpeg":true,
-        "**/*.png":true,
-        "**/*.psd":true,
-        "**/*.tga":true,
-        "**/*.tif":true,
-        "**/*.tiff":true,
-        "**/*.3ds":true,
-        "**/*.3DS":true,
-        "**/*.fbx":true,
-        "**/*.FBX":true,
-        "**/*.lxo":true,
-        "**/*.LXO":true,
-        "**/*.ma":true,
-        "**/*.MA":true,
-        "**/*.obj":true,
-        "**/*.OBJ":true,
-        "**/*.asset":true,
-        "**/*.cubemap":true,
-        "**/*.flare":true,
-        "**/*.mat":true,
-        "**/*.meta":true,
-        "**/*.prefab":true,
-        "**/*.unity":true,
-        "build/":true,
-        "Build/":true,
-        "Library/":true,
-        "library/":true,
-        "obj/":true,
-        "Obj/":true,
-        "ProjectSettings/":true,
-        "temp/":true,
-        "Temp/":true
+        "**/.DS_Store": true,      // Exclude macOS system files used by Finder to store folder view options.
+        "**/.git": true,           // Exclude Git version control system directories.
+        "**/.gitignore": true,     // Exclude Git ignore configuration files.
+        "**/.gitmodules": true,    // Exclude Git submodules configuration files.
+        "**/*.booproj": true,      // Exclude Boo language project files.
+        "**/*.pidb": true,         // Exclude Unity's intermediate files for script debugging.
+        "**/*.suo": true,          // Exclude Visual Studio solution user option files.
+        "**/*.user": true,         // Exclude Visual Studio user settings files.
+        "**/*.userprefs": true,    // Exclude Unity's user preferences files.
+        "**/*.unityproj": true,    // Exclude Unity project files.
+        "**/*.dll": true,          // Exclude Dynamic Link Library files, common in Windows.
+        "**/*.exe": true,          // Exclude executable files.
+        "**/*.pdf": true,          // Exclude PDF documents.
+        "**/*.mid": true,          // Exclude MIDI audio files.
+        "**/*.midi": true,         // Exclude MIDI audio files (alternative extension).
+        "**/*.wav": true,          // Exclude WAV audio files.
+        "**/*.gif": true,          // Exclude GIF image files.
+        "**/*.ico": true,          // Exclude ICO icon files.
+        "**/*.jpg": true,          // Exclude JPEG image files.
+        "**/*.jpeg": true,         // Exclude JPEG image files (alternative extension).
+        "**/*.png": true,          // Exclude PNG image files.
+        "**/*.psd": true,          // Exclude Adobe Photoshop files.
+        "**/*.tga": true,          // Exclude TGA image files.
+        "**/*.tif": true,          // Exclude TIFF image files.
+        "**/*.tiff": true,         // Exclude TIFF image files (alternative extension).
+        "**/*.3ds": true,          // Exclude 3D Studio mesh files.
+        "**/*.3DS": true,          // Exclude 3D Studio mesh files (alternative extension).
+        "**/*.fbx": true,          // Exclude Autodesk FBX files.
+        "**/*.FBX": true,          // Exclude Autodesk FBX files (alternative extension).
+        "**/*.lxo": true,          // Exclude Luxology Modo files.
+        "**/*.LXO": true,          // Exclude Luxology Modo files (alternative extension).
+        "**/*.ma": true,           // Exclude Autodesk Maya files.
+        "**/*.MA": true,           // Exclude Autodesk Maya files (alternative extension).
+        "**/*.obj": true,          // Exclude Wavefront OBJ files.
+        "**/*.OBJ": true,          // Exclude Wavefront OBJ files (alternative extension).
+        "**/*.asset": true,        // Exclude Unity asset files.
+        "**/*.cubemap": true,      // Exclude Unity cubemap files.
+        "**/*.flare": true,        // Exclude Unity flare asset files.
+        "**/*.mat": true,          // Exclude Unity material files.
+        "**/*.meta": true,         // Exclude Unity metadata files.
+        "**/*.prefab": true,       // Exclude Unity prefab files.
+        "**/*.unity": true,        // Exclude Unity scene files.
+        "build/": true,            // Exclude build directories.
+        "Build/": true,            // Exclude build directories (alternative capitalization).
+        "Library/": true,          // Exclude Unity library directories.
+        "library/": true,          // Exclude Unity library directories (alternative capitalization).
+        "obj/": true,              // Exclude object directories.
+        "Obj/": true,              // Exclude object directories (alternative capitalization).
+        "ProjectSettings/": true,  // Exclude Unity project settings directories.
+        "temp/": true,             // Exclude temporary directories.
+        "Temp/": true              // Exclude temporary directories (alternative capitalization).
     }
 }
